@@ -1,0 +1,224 @@
+@media only screen and (min-width: 768px) {
+  .mainContainer {
+    position: fixed;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background: white 0% 0% no-repeat;
+    overflow-y: auto;
+    overflow-x: hidden;
+    opacity: 1;
+    .logoContainer {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+      img {
+        width: 100px;
+      }
+      i {
+        display: none;
+      }
+    }
+    .menuContainer {
+      // padding-top: 20px;
+      .linksContainer {
+        font-family: ProximaNovaRegular;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        // height: 40px;
+        padding: 10px 20px;
+
+        .iconContainer {
+          width: 15px;
+          .icon {
+            path {
+              fill: #7b828d;
+            }
+          }
+        }
+        .linkContainer {
+          margin-left: 20px;
+          .link {
+            margin: 0;
+            padding: 0;
+            color: #7b828d;
+            font-size: 15px;
+            font-weight: 600;
+          }
+        }
+      }
+      .activeLinksContainer {
+        font-family: ProximaNovaBold;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        background-color: #ff990021;
+        padding: 10px 20px;
+        .iconContainer {
+          width: 15px;
+          .icon {
+            path {
+              fill: #ff9900;
+            }
+          }
+        }
+        .linkContainer {
+          margin-left: 20px;
+          .link {
+            margin: 0;
+            padding: 0;
+            color: #ff9900;
+            font-weight: 600;
+
+            font-size: px;
+          }
+        }
+      }
+      .mainDiv {
+        display: flex;
+        padding-top: 10px;
+        .iconContainer {
+          width: 15px;
+          margin-left: 20px;
+          .icon {
+            path {
+              fill: #7b828d;
+            }
+          }
+        }
+        .ContentContainer {
+          margin-left: 20px;
+
+          p {
+            color: #ffffff;
+
+            font-size: 15px;
+            width: 170px;
+            font-weight: 400;
+          }
+
+          .link {
+            i {
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mainContainer {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    background: white 0% 0% no-repeat;
+    overflow-y: auto;
+    overflow-x: hidden;
+    opacity: 1;
+    z-index: 1000;
+    transition: 700ms ease;
+    .logoContainer {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 2rem;
+      img {
+        width: 100px;
+      }
+      i {
+        color: white;
+      }
+    }
+    .menuContainer {
+      // padding-top: 20px;
+      overflow-x: hidden;
+      .linksContainer {
+        font-family: ProximaNovaRegular;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        // height: 40px;
+        padding: 10px 20px;
+        .iconContainer {
+          width: 15px;
+          .icon {
+            path {
+              fill: #7b828d;
+            }
+          }
+        }
+        .linkContainer {
+          margin-left: 20px;
+          .link {
+            margin: 0;
+            padding: 0;
+            color: #7b828d;
+            font-size: 15px;
+          }
+        }
+      }
+      .activeLinksContainer {
+        font-family: ProximaNovaBold;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        background-color: #ff990021;
+        padding: 10px 20px;
+        .iconContainer {
+          width: 15px;
+          .icon {
+            path {
+              fill: #ff9900;
+            }
+          }
+        }
+        .linkContainer {
+          margin-left: 20px;
+          .link {
+            margin: 0;
+            padding: 0;
+            color: #ff9900;
+            font-size: 15px;
+          }
+        }
+      }
+      .mainDiv {
+        display: flex;
+        padding-top: 10px;
+        .iconContainer {
+          width: 15px;
+          margin-left: 20px;
+          .icon {
+            path {
+              fill: #7b828d;
+            }
+          }
+        }
+        .ContentContainer {
+          margin-left: 20px;
+          // color: white;
+
+          p {
+            color: #ffffff;
+            font-size: 15px;
+            width: 170px;
+            font-weight: 400;
+          }
+
+          .link {
+            i {
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

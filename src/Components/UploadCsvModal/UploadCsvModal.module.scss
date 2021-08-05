@@ -1,0 +1,94 @@
+.modalContent {
+  .upload_csv {
+    .upload_button{
+      background-color: #ff9900 !important;
+      color: white;
+      width: auto;
+      height: 2.5rem;
+      float: right;
+      border: none;
+    }
+    input {
+      visibility: hidden;
+    }
+    label {
+      background-color: #ff9900;
+      color: white;
+      width: auto;
+      padding-left: 0.8rem;
+      padding-top: 0.4rem;
+      padding-right: 0.8rem;
+      border-radius: 0.2rem;
+      float: right;
+      height: 2.5rem !important;
+    }
+  }
+  .modal_body {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    .csv_row{
+      display: flex;
+      flex-direction: column;
+      margin-top: 1rem;
+    }
+    .csvfile {
+      display: flex;
+      align-items: baseline;
+      button{
+        background-color: transparent;
+        border: transparent;
+        margin-left: auto;
+        img{
+          width: 1rem;
+        }
+      }
+      input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid peachpuff;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ff9900;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid peachpuff;
+    }
+      input {
+        margin-right: 1rem;
+      }
+      h6{
+        margin-left: 1rem;
+        color: #ff9900;
+      }
+    }
+  }
+  .UploadServer_btn {
+    background-color: #ff9900 !important;
+    border: none !important;
+    height: 2.5rem;
+  }
+  .UploadCsv_btn {
+    background-color: #ff9900 !important;
+    border: none !important;
+  }
+  .modal_footer{
+    align-items: inherit;
+  }
+}

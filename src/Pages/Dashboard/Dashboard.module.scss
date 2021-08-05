@@ -1,0 +1,124 @@
+@media only screen and (min-width: 600px) {
+  * {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+  }
+  .table_container {
+    margin-top: 6.5rem !important;
+    overflow: hidden !important;
+    background-color: transparent;
+    padding: 0.8rem;
+    --bs-gutter-x: 0rem !important;
+    // margin: 1rem;
+    .main_container {
+      margin-left: 18rem !important;
+    }
+    .row_bar {
+      margin: 0rem;
+      padding: 0rem;
+      .upload_csv {
+        .upload_button{
+          background-color: #ff9900 !important;
+          color: white;
+          width: auto;
+          height: 2.5rem;
+          float: right;
+          border: none;
+        }
+      }
+      .dashboard_heading {
+        margin-bottom: 0.5rem !important;
+        font-weight: 600;
+      }
+    }
+    .table_bg {
+      background-color: white !important;
+      border-radius: 0.1rem;
+    }
+
+    .table_heading {
+      text-align: center;
+      th {
+        text-transform: capitalize;
+        text-align: center;
+      }
+    }
+    .product_img {
+      width: 4rem;
+    }
+    .edit_btn {
+      background-color: transparent !important;
+      border: none;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+
+  * {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+  }
+  .table_container {
+    margin-top: 6.5rem !important;
+    overflow: scroll !important;
+    background-color: transparent;
+    padding: 0.8rem;
+    --bs-gutter-x: 0rem !important;
+    // margin: 1rem;
+    .main_container {
+      margin-left: 8.5rem !important;
+    }
+    .row_bar {
+      margin: 0rem;
+      padding: 0rem;
+      .dashboard_heading {
+        margin-bottom: 0.5rem !important;
+        font-weight: 600;
+      }
+      .upload_csv {
+       
+        input {
+          visibility: hidden;
+        }
+        label {
+          background-color: #ff9900;
+          color: white;
+          margin-bottom: 0.2rem;
+          width: auto;
+          padding-left: 0.8rem;
+          padding-top: 0.4rem;
+          padding-right: 0.8rem;
+          height: 2.5rem;
+          border-radius: 0.5rem;
+          // float: right;
+          font-size: 20px;
+          font-weight: 600 !important;
+          height: 2.5rem !important;
+        }
+      }
+    }
+    .table_bg {
+      background-color: white !important;
+      border-radius: 0.1rem;
+      
+    }
+
+    .table_heading {
+      text-align: center;
+      th {
+        text-transform: capitalize;
+        text-align: center;
+      }
+    }
+    .product_img {
+      width: 4rem;
+    }
+    .edit_btn {
+      background-color: transparent !important;
+      border: none;
+    }
+  }
+
+}

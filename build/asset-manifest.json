@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.70ea2f57.chunk.css",
+    "main.js": "/static/js/main.e3ab1993.chunk.js",
+    "main.js.map": "/static/js/main.e3ab1993.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dbbcdd3a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dbbcdd3a.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.254fa6cd.chunk.js": "/static/js/2.254fa6cd.chunk.js",
+    "static/js/2.254fa6cd.chunk.js.map": "/static/js/2.254fa6cd.chunk.js.map",
+    "static/js/3.a0491f25.chunk.js": "/static/js/3.a0491f25.chunk.js",
+    "static/js/3.a0491f25.chunk.js.map": "/static/js/3.a0491f25.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.70ea2f57.chunk.css.map": "/static/css/main.70ea2f57.chunk.css.map",
+    "static/js/2.254fa6cd.chunk.js.LICENSE.txt": "/static/js/2.254fa6cd.chunk.js.LICENSE.txt",
+    "static/media/Icon material-arrow-drop-down.912377a0.svg": "/static/media/Icon material-arrow-drop-down.912377a0.svg",
+    "static/media/Logo.1dceee1b.png": "/static/media/Logo.1dceee1b.png",
+    "static/media/dashboard.ffc09511.svg": "/static/media/dashboard.ffc09511.svg",
+    "static/media/delete_icon.a90ca2be.svg": "/static/media/delete_icon.a90ca2be.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbbcdd3a.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.254fa6cd.chunk.js",
+    "static/css/main.70ea2f57.chunk.css",
+    "static/js/main.e3ab1993.chunk.js"
+  ]
+}

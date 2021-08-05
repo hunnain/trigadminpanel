@@ -1,0 +1,405 @@
+@media only screen and (min-width: 768px) {
+  // FOR DESKTOP AND TABLET
+  .main_container {
+    max-width: 100% !important;
+    .background {
+      background-color: #f0f2f7;
+      height: 100vh;
+    }
+    .head {
+      text-align: center;
+      font-size: 2.1rem;
+      font-weight: 600;
+      color: #111d29;
+      margin-top: 1rem;
+    }
+    .texthead {
+      text-align: left;
+      font-size: 0.7rem;
+      color: #111d29;
+    }
+    .textlink {
+      text-align: right;
+      font-size: 0.9rem;
+    }
+    .textaccount {
+      font-size: 1rem;
+      margin-top: 1rem;
+      color: #FF9900;
+    }
+
+    .container_left {
+      background-color: #f0f2f7;
+      padding: 0 !important;
+
+      margin-top: 4rem;
+      display: flex;
+      place-content: center;
+    }
+
+    .cardPayment {
+      border-radius: 0.5rem !important;
+      // height: auto !important;
+      // height: 90vh !important;
+      width: 42%;
+      margin: auto;
+      margin-top: 0px;
+      border: none;
+
+      .logoImage {
+        width: 150px;
+        margin: 20px auto -20px auto;
+      }
+      .headingMain {
+        color: #707070;
+        font-size: 1.5rem;
+        font-weight: bold;
+        float: left !important;
+      }
+    }
+
+    .buttonPayment {
+      width: 100%;
+      height: 3rem;
+      background-color: #FF9900 !important ;
+      color: white !important;
+      border: none !important;
+      border-radius: 0.5rem !important;
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      font-size: 1rem !important;
+      filter: drop-shadow(1px 5px 5px rgba(75, 56, 56, 0.192));
+    }
+    .label {
+      color: #707070;
+      font-size: 0.8rem;
+      font-weight: bold;
+      float: left;
+      //    margin-right: 900px;
+    }
+    .icon {
+      margin-top: -1.7rem;
+      margin-left: 0.6rem;
+      float: left;
+    }
+    .inputBox1 {
+      background-color: #ffffff;
+      overflow: hidden;
+      text-align: left;
+      height: 55px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      width: 100%;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 12px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 100%;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+          width: 100% !important;
+        }
+      }
+    }
+    .inputBox {
+      background-color: #ffffff;
+      overflow: hidden;
+      color: #6b6f75;
+      text-align: left;
+      height: 55px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      width: 100%;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 12px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        width: 100%;
+        input {
+          background: transparent;
+          border: none;
+width: 100%;
+          outline: none;
+        }
+      }
+    }
+
+    .inputBoxwhite1 {
+      background-color: #ffffff;
+      overflow: hidden;
+      text-align: left;
+      height: 55px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      width: 100%;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 12px;
+      }
+      .input {
+        margin-top: -2px !important;
+        margin-left: 10px;
+      width: 100%;
+
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+      width: 100%;
+
+        }
+      }
+    }
+    .inputBoxwhite {
+      background-color: #eeeeee;
+      overflow: hidden;
+      color: #6b6f75;
+      text-align: left;
+      height: 55px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      width: 100%;
+
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 12px;
+      }
+      .input {
+        margin-top: -2px !important;
+        width: 95%;
+
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+      width: 100%;
+      
+
+          outline: none;
+        }
+      }
+    }
+  }
+  .menuButton {
+    display: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* phones */
+  .main_container {
+    // max-width: 100% !important;
+    .background {
+      background-color: #f0f2f7;
+    }
+    .setrow {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .head {
+      text-align: center;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #111d29;
+      margin-top: 1rem;
+    }
+    .texthead {
+      text-align: left;
+      font-size: 0.7rem;
+      color: #111d29;
+    }
+    .textlink {
+      text-align: right;
+      font-size: 0.9rem;
+    }
+    .textaccount {
+      font-size: 1rem;
+      margin-top: 1rem;
+      color: #FF9900;
+      text-align: center;
+      margin-bottom: -0.5rem;
+    }
+    .text {
+      font-size: 1rem;
+      margin-top: 1rem;
+      text-align: center;
+      margin-bottom: -0.5rem;
+    }
+
+    .container_left {
+      background-color: #f0f2f7;
+      padding: 0 !important;
+      height: 100vh !important;
+      margin-top: -2rem;
+    }
+
+    .cardPayment {
+      border-radius: 0.5rem !important;
+      // height: auto !important;
+      width: 89%;
+      margin: auto;
+      margin-top: 170px !important;
+      border: none;
+
+      .logoImage {
+        width: 100px;
+        margin: 20px auto -20px auto;
+      }
+      .headingMain {
+        color: #707070;
+        font-size: 1.3rem;
+        font-weight: bold;
+        float: left !important;
+      }
+    }
+
+    .buttonPayment {
+      width: 100%;
+      height: 2.7rem;
+      background-color: #FF9900 !important ;
+      color: white !important;
+      border: none !important;
+      border-radius: 0.5rem !important;
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      font-size: 1rem !important;
+      filter: drop-shadow(1px 5px 5px rgba(75, 56, 56, 0.192));
+    }
+    .label {
+      color: #707070;
+      font-size: 0.7rem;
+      font-weight: bold;
+      float: left;
+      //    margin-right: 900px;
+    }
+
+    .inputBox1 {
+      background-color: #ffffff;
+      overflow: hidden;
+      text-align: left;
+      height: 45px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 10px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .inputBox {
+      background-color: #f0f2f7;
+      overflow: hidden;
+      color: #6b6f75;
+      text-align: left;
+      height: 45px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 10px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .inputBoxwhite1 {
+      background-color: white;
+      overflow: hidden;
+      text-align: left;
+      height: 45px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 10px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+    .inputBoxwhite {
+      background-color: #eeeeee;
+      overflow: hidden;
+      color: #6b6f75;
+      text-align: left;
+      height: 45px;
+      border: 1px solid #eeeeee;
+      margin-bottom: 8px;
+      border-radius: 10px;
+      label {
+        margin-left: 10px;
+        font-family: ProximaNovaBold;
+        font-size: 10px;
+      }
+      .input {
+        margin-top: -10px;
+        margin-left: 10px;
+        input {
+          background: transparent;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+  .menuButton {
+    display: flex;
+    height: 50px !important;
+    background-color: white;
+
+    text-align: center;
+    .togButton {
+      margin-top: 10px;
+      margin-right: 130px;
+      margin-left: 20px;
+      button {
+        background-color: transparent !important;
+        border: none !important;
+        color: #FF9900 !important;
+        font-size: 20px;
+        font-weight: 800;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.modal_body {
+  height: auto;
+  .modal_label {
+    font-weight: 650;
+    padding-bottom: 1.8rem;
+  }
+  .modal_input input {
+    background-color: rgb(250, 249, 249);
+    width: 100%;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+  }
+  .choose_file {
+    input {
+      visibility: hidden;
+    }
+    label {
+      background-color: rgb(250, 249, 249);
+      color: black;
+      width: 7rem;
+      padding-left: 0.8rem;
+      padding-top: 0.4rem;
+      height: 2.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+}
+.save_btn {
+  background-color: #ff9900 !important;
+  border: none !important;
+}

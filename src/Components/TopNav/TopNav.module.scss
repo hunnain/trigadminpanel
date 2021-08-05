@@ -1,0 +1,264 @@
+@media only screen and (min-width: 768px) {
+  .mainContainer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    z-index: 1020;
+    .menuContainer {
+      width: 20%;
+      display: none;
+    }
+    .searchContainer {
+      background-color: gey;
+      display: flex;
+      align-items: center;
+      //   align-content: flex-start;
+      .search {
+        input {
+          padding: 5px 15px;
+          color: #898989;
+          font-size: 15px;
+          border: 1px solid #afabab;
+          font-family: ProximaNovaRegular;
+          &:focus {
+            border: 1px solid #afabab;
+            outline: none;
+          }
+          &::placeholder {
+            color: #898989;
+            font-size: 15px;
+          }
+        }
+      }
+      .button {
+        button {
+          padding: 5px 20px;
+          border: none;
+          background-color: #ee405e;
+          color: white;
+          font-size: 16px;
+          font-family: ProximaNovaBold;
+          &:focus {
+            outline: none;
+            border: none;
+          }
+          &:active {
+            outline: none;
+            border: none;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+    .profileContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: auto;
+      .notificationsContainer {
+        width: 20px;
+        .icon {
+          path {
+            fill: #b8b5b5;
+          }
+        }
+      }
+      .helpContainer {
+        display: flex;
+        align-items: center;
+        margin: 0 15px;
+        .iconContainer {
+          width: 20px;
+          .icon {
+            path {
+              fill: #b8b5b5;
+            }
+          }
+        }
+        .headingContainer {
+          margin-left: 5px;
+          h6 {
+            margin: 0px 0px 0 0px;
+            color: #5a5a5a;
+            font-size: 16px;
+            font-family: ProximaNovaBold;
+          }
+        }
+      }
+      .dropdown {
+        button {
+          background: none !important;
+          border: none !important;
+          transition: none !important;
+          &:focus {
+            border: none !important;
+            outline: none !important;
+          }
+        }
+      .profile {
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        .picContainer {
+          width: 40px;
+        }
+        .headingContainer {
+          margin: 0 0px 0 8px;
+          h6 {
+            margin: 0;
+            color: #5a5a5a;
+            font-size: 16px;
+            font-family: ProximaNovaBold;
+          }
+        }
+        .iconContainer {
+          margin-left: 8px;
+          width: 10px;
+          .icon {
+            path {
+              fill: #ee405e;
+            }
+          }
+        }
+      }}
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mainContainer {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    // .menuContainer {
+    // }
+    .searchContainer {
+      background-color: gey;
+      display: flex;
+      align-items: center;
+      //   align-content: flex-start;
+      .search {
+        input {
+          padding: 5px 15px;
+          color: #898989;
+          font-size: 15px;
+          border: 1px solid #afabab;
+          font-family: ProximaNovaRegular;
+          &:focus {
+            border: 1px solid #afabab;
+            outline: none;
+          }
+          &::placeholder {
+            color: #898989;
+            font-size: 15px;
+          }
+        }
+      }
+      .button {
+        button {
+          display: none;
+          padding: 5px 20px;
+          border: none;
+          background-color: #ee405e;
+          color: white;
+          font-size: 16px;
+          font-family: ProximaNovaBold;
+          &:focus {
+            outline: none;
+            border: none;
+          }
+          &:active {
+            outline: none;
+            border: none;
+            opacity: 0.5;
+          }
+        }
+      }
+    }
+    .profileContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .notificationsContainer {
+        width: 12px;
+        .icon {
+          path {
+            fill: #b8b5b5;
+          }
+        }
+      }
+      .helpContainer {
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+        .iconContainer {
+          width: 12px;
+          .icon {
+            path {
+              fill: #b8b5b5;
+            }
+          }
+        }
+        .headingContainer {
+          margin-left: 5px;
+          display: none;
+          h6 {
+            margin: 0px 0px 0 0px;
+            color: #5a5a5a;
+            font-size: 14px;
+            font-family: ProximaNovaBold;
+          }
+        }
+      }
+      .dropdown {
+        button {
+          background: none !important;
+          border: none !important;
+          transition: none !important;
+          &:focus {
+            border: none !important;
+            outline: none !important;
+          }
+        }
+      .profile {
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+        .picContainer {
+          width: 16px;
+        }
+        .headingContainer {
+          margin: 0 0px 0 8px;
+          display: none;
+          h6 {
+            margin: 0;
+            color: #5a5a5a;
+            font-size: 16px;
+            font-family: ProximaNovaBold;
+          }
+        }
+        .iconContainer {
+          margin-left: 8px;
+          width: 10px;
+          .icon {
+            path {
+              fill: #ee405e;
+            }
+          }
+        }
+      }
+    }
+    }
+  }
+}
